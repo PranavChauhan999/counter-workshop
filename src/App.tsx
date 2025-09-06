@@ -82,4 +82,16 @@ function App() {
   );
 }
 
+import Leaderboard from "./Leaderboard";
+
+function App() {
+  return (
+    <div>
+      <h1>🚀 Distributed Counter dApp</h1>
+      <Leaderboard />
+    </div>
+  );
+}
+
 export default App;
+
